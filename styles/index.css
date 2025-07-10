@@ -16,15 +16,19 @@
   font-style: normal;
 }
 
-
-
 /* imported fonts End  */
 
+/* header style  */
+header {
+    background-image: url(../Assets/Hero-bg.png);
+   
+}
+/* header style End  */
 /* nav style  */
 nav {
     display: flex;
     justify-content: space-between;
-    padding: 10px 150px;
+    padding: 50px 150px;
     align-items: center;
 }
 .nav-icon {
@@ -35,7 +39,31 @@ nav {
 
 /* nav style end  */
 
+/* banner style  */
+.banner {
+    padding-top: 158px;
+    padding-bottom: 170px;
+    width: 905px;
+    margin: auto;
+    text-align: center;
+}
+.banner-title .title{
+    font-family: "Raleway", sans-serif;
+    font-size: 65px;
+    font-weight: bold;
+    margin-bottom: 45px;
+}
+/* banner style End  */
+
 /* shared style  */
+body {
+    margin: 0;
+    padding: 0;
+}
+h3 {
+    margin: 0;
+}
+
 .primary-btn {
     font-family: "Raleway", sans-serif;
     font-size: 18px;
@@ -45,5 +73,7 @@ nav {
     color: #FFFFFF;
     border-radius: 10px;
     border: none;
+    cursor: pointer;
 }
+
 /* shared style End  */
