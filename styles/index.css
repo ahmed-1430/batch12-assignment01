@@ -232,18 +232,14 @@ nav {
 /* newsletter style  */
 .newsletter {
     display: flex;
-    /* border: 2px solid black; */
     justify-content: center;
-    /* margin: 92px 150px; */
     padding: 71px 10px;
-    /* width: 1140px; */
     
 }
 .news-letter {
     display: flex;
     flex-direction: row;
     text-align: center;
-    /* width: 1140px; */
 }
 .newsletter-title {
     display: flex;
