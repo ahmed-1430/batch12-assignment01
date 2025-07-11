@@ -76,6 +76,7 @@ nav {
 .action .action-description {
     font-size: 24px;
     line-height: 30px;
+    margin-bottom: 23px;
 }
 .action-photo {
     border-radius: 48px;
@@ -124,14 +125,203 @@ nav {
 
 /* production style End  */
 
+/* review style  */
+.review {
+    display: flex;
+    justify-content: center;
+    margin: 137px 151px;
+}
+.rev-title {
+    font-family: "Raleway", sans-serif ;
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.users-review {
+    display: flex;
+    gap: 20px;
+}
+.user-review {
+    padding: 24px;
+    border: 2px solid #F2EDED;
+    background-color: #FFFFFF;
+    border-radius: 14px;
+}
+.review-info {
+    margin-top: 24px;
+    margin-bottom: 24px;
+}    
+.user-review-titile {
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #1E1E1E;
+    margin-bottom: 15px;
+}
+.user-review-description {
+    font-family:"Inter", sans-serif;
+    font-size: 18px;
+    line-height: 140%;
+    color: #1E1E1E;
+}
+.name-date {
+    justify-content: center;
+}
+.user-name {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #757575;
+    margin-bottom: 5px;
+}
+.date {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    color: #B3B3B3;
+}  
+.avatar-name {
+    display: flex;
+}
+.avatar {
+    border-radius: 50px;
+    margin-right: 15px;
+}
+/* review style End  */
+
+/* focus section style  */
+.focus  {
+    display: flex;
+    justify-content: center;
+    font-family: "raleway", sans-serif;
+    text-align: center;
+    border-radius: 14px;
+
+}
+.focus-better-dv {
+    display: block;    
+    justify-content: center;
+    background-color: #FFFFFF;
+    border-radius: 14px;
+    padding: 71px 150px;
+    margin: 0 159px;
+    width: 1140px;
+}
+.focus-title {
+    font-size: 50px;
+    font-weight: bold;
+    color: #000000;
+}
+.focus-description {
+    font-size: 16px ;
+    line-height: 140%;
+    color: rgba(0, 0, 0, 0.5);
+    margin: 20px 0;
+}
+.focus-big {
+    height: 364px;
+    width: 840px;
+    border-radius: 48px;
+}
+.get-started {
+    margin: 0 0 20px 0;
+}
+
+/* focus section style End  */
+
+/* newsletter style  */
+.newsletter {
+    display: flex;
+    /* border: 2px solid black; */
+    justify-content: center;
+    /* margin: 92px 150px; */
+    padding: 71px 10px;
+    /* width: 1140px; */
+    
+}
+.news-letter {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    /* width: 1140px; */
+}
+.newsletter-title {
+    display: flex;
+    text-align: left;
+    justify-items: center;
+    font-size: 97px;
+    font-weight: bold;
+    width: 530px;
+    margin-right: 150px;
+    padding: 125px 0 0 0px ;
+}
+.newsletter-form {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.newsletter-form input[type="text"], input[type="email"],textarea{
+    font-family: "inter", sans-serif;
+    width: 497px;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    padding: 20px 0 20px 32px;
+    margin-bottom: 20px;
+    color: rgba(0, 0, 0, 0.5);
+}
+label {
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 7px;
+}
+.touch-btn {
+   height: 60px;
+}
+/* newsletter style End  */
+
+/* footer style  */
+.footer-item {
+   padding: 104px 455px;
+}
+.footer-description {
+    font-family: "inter", sans-serif;
+    font-size: 16px;
+    color: #8987A1;
+}
+.footer-link {
+    text-align: center;
+}
+.footer-link ul li {
+   font-family: "Inter", sans-serif;
+   line-height: 150%;
+    display: inline;
+    margin-right: 40px;
+    list-style: none;
+}
+.footer-link ul li a {
+    color: #8987A1;
+}
+.footer-icon {
+    font-size: 100px;
+}
+.footer-logo {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+/* footer style End  */
+
 /* shared style  */
 body {
     margin: 0;
     padding: 0;
 }
-h3 {
+h3, h4, h5 {
     margin: 0;
 }
+
 a {
     text-decoration: none;
 }
@@ -156,6 +346,9 @@ p {
 }
 .background-color{
     background-color: #f5f8ff;
+}
+.secondary-bg {
+    background-color: #FFFFFF;
 }
 
 /* shared style End  */
